@@ -1,7 +1,7 @@
-import GroupeBrand from "../assets/Groupe.jpg";
-import ESPRITBrand from "../assets/ESPRIT.jpg";
-import ChanelBrand from "../assets/CHANEL.jpg";
-import BurberryBrand from "../assets/BURBERRY.jpg";
+import GroupeBrand from "../assets/brandImages/Groupe.jpg";
+import ESPRITBrand from "../assets/brandImages/ESPRIT.jpg";
+import ChanelBrand from "../assets/brandImages/CHANEL.jpg";
+import BurberryBrand from "../assets/brandImages/BURBERRY.jpg";
 
 export default function BrandSection() {
   const img = [

@@ -1,9 +1,9 @@
-import MarketingBackground from "../assets/Marketing Background.jpg";
-import SearchEngineLogo from "../assets/Search Engine Optimization.jpg";
-import SocialMediaLogo from "../assets/Social Media Organize.jpg";
-import UIUXLogo from "../assets/UI & UX Design.jpg";
-import GoogleAdsLogo from "../assets/Google Ads Optimization.jpg";
-import ArrowCarousel from "../assets/Arrow Carousel.jpg";
+import MarketingBackground from "../assets/upperSections/Marketing Background.jpg";
+import SearchEngineLogo from "../assets/upperSections/Search Engine Optimization.jpg";
+import SocialMediaLogo from "../assets/upperSections/Social Media Organize.jpg";
+import UIUXLogo from "../assets/upperSections/UI & UX Design.jpg";
+import GoogleAdsLogo from "../assets/upperSections/Google Ads Optimization.jpg";
+import ArrowCarousel from "../assets/upperSections/Arrow Carousel.jpg";
 
 export default function UpperSection() {
   const services = [
@@ -60,7 +60,7 @@ export default function UpperSection() {
         />
         <div className="absolute inset-0 flex flex-col items-start justify-center ms-10 gap-5 ">
           {services.map((service) => (
-            <div className="w-[206px] h-[63px] top-[111px] bg-white left-[784px] rounded-lg flex items-center">
+            <div className="w-[206px] h-[63px] top-[111px] bg-white left-[784px] rounded-lg flex items-center hover:opacity-60 hover:cursor-pointer">
               <img src={service.image} alt={service.name} className="ms-3" />
               <p className="text-[11px] ms-2">{service.name}</p>
             </div>
